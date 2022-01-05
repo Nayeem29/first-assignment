@@ -58,3 +58,53 @@ body {
   text-align: center;
   font-weight: 900;
 }
+.mission {
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30%;
+  width: 30%;
+  padding: 20px 40px;
+}
+.mission img {
+  height: 150px;
+  width: 150px;
+}
+#illus-one {
+  background-color: rgba(176, 224, 230, 0.623);
+}
+#illus-two {
+  background-color: rgb(228, 206, 184);
+}
+#illus-three {
+  background-color: rgb(240, 211, 174);
+}
+.second-section {
+  display: flex;
+  padding-left: 8%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.third-section {
+  display: flex;
+  padding-left: 10%;
+}
+.third-title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  text-align: left;
+  font-weight: 900;
+}
+.second-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 128, 0.822);
+  border-color: turquoise;
+  border-style: none;
+  font-size: large;
+  color: azure;
+  cursor: pointer;
+  font-size: 15px;
+}
