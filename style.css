@@ -4,6 +4,7 @@ body {
 }
 .first-section {
   display: flex;
+  margin-bottom: -20px;
 }
 .header {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -50,4 +51,10 @@ body {
   font-size: large;
   color: azure;
   cursor: pointer;
+}
+.second-header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 900;
 }
