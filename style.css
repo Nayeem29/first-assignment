@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+.first-section {
+  display: flex;
+}
+.header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  color: hsla(0, 0%, 0%, 0.76);
+  margin-bottom: -60px;
+}
+.header::before {
+  content: "";
+  height: 140px;
+  width: 4px;
+  background: rgb(205, 132, 63);
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+}
+.header > h1 > span {
+  color: turquoise;
+}
+.header-paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.half-width {
+  width: 40%;
+}
+.half-width img {
+  width: 90%;
+  height: 80%;
+  padding-right: 2%;
+}
+.full-header {
+  padding: 5% 10%;
+  justify-content: space-around;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.first-button {
+  height: 50px;
+  width: 160px;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 128, 0.822);
+  border-color: turquoise;
+  border-style: none;
+  font-size: large;
+  color: azure;
+  cursor: pointer;
+}
