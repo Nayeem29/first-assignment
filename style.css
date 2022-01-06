@@ -6,6 +6,7 @@ body {
 .first-section {
   display: flex;
   margin-bottom: -35px;
+  justify-content: space-between;
 }
 .header {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
