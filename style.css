@@ -115,12 +115,22 @@ body {
 }
 #corona {
   width: 350px;
-  height: 500px;
+  height: 400px;
   padding-bottom: 20%;
   background-image: url(./images/shapes/shape-3.png);
   background-position: inherit;
   background-repeat: no-repeat;
   background-size: 40%;
+}
+#football {
+  width: 350px;
+  height: 400px;
+  padding-bottom: 20%;
+  padding-left: 40%;
+  background-image: url(./images/shapes/shape-9.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right;
 }
 footer {
   height: auto;
