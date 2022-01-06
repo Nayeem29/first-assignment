@@ -2,9 +2,12 @@ body {
   margin: 0;
   font-family: "Noto Sans", sans-serif;
 }
+.min-height {
+  min-height: 100vh;
+}
 .first-section {
   display: flex;
-  margin-bottom: -20px;
+  margin-bottom: -35px;
 }
 .header {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -54,7 +57,7 @@ body {
 }
 .second-header {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 22px;
+  font-size: 30px;
   text-align: center;
   font-weight: 900;
 }
@@ -107,4 +110,36 @@ body {
   color: azure;
   cursor: pointer;
   font-size: 15px;
+}
+.project {
+  padding-left: 30%;
+}
+#corona {
+  width: 350px;
+  height: 500px;
+  padding-bottom: 20%;
+  background-image: url(./images/shapes/shape-3.png);
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+footer {
+  height: auto;
+  background-color: black;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+footer > p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0px;
+  padding-bottom: 14 px 0px;
+  opacity: 50%;
+  color: whitesmoke;
+  justify-content: center;
 }
