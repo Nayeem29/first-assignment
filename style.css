@@ -2,9 +2,7 @@ body {
   margin: 0;
   font-family: "Noto Sans", sans-serif;
 }
-.min-height {
-  min-height: 100vh;
-}
+
 .first-section {
   display: flex;
   margin-bottom: -35px;
@@ -92,6 +90,7 @@ body {
 .third-section {
   display: flex;
   padding-left: 10%;
+  padding-top: 10%;
 }
 .third-title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -140,6 +139,5 @@ footer > p {
   margin-bottom: 0px;
   padding-bottom: 14 px 0px;
   opacity: 50%;
-  color: whitesmoke;
   justify-content: center;
 }
